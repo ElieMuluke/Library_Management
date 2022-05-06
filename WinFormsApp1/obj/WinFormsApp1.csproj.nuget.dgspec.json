@@ -1,0 +1,98 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\18S01ACS004\\source\\repos\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\18S01ACS004\\source\\repos\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\18S01ACS004\\source\\repos\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
+        "projectName": "WinFormsApp1",
+        "projectPath": "C:\\Users\\18S01ACS004\\source\\repos\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
+        "packagesPath": "C:\\Users\\18S01ACS004\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\18S01ACS004\\source\\repos\\WinFormsApp1\\WinFormsApp1\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\18S01ACS004\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            },
+            "runtime.native.System.Data.SqlClient.sni": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
+            "runtime.win-x64.runtime.native.System.Data.SqlClient.sni": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
+            "runtime.win-x86.runtime.native.System.Data.SqlClient.sni": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
+            "runtime.win7-x64.runtime.native.System.Data.SqlClient.sni": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "runtime.win7-x86.runtime.native.System.Data.SqlClient.sni": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
