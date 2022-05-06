@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MBYggOsQ0kSdijrWRpx5nWNBhYxMKX5z5iaOlgIdaP+46ygqI/BO/tc3WIgNJ7PqunhFIXu7W3dAkay5fAtIzA==",
+  "dgSpecHash": "s1lo+8qTA1GjnFYaW+fKT+3XrAm6CwF+sBTeMA0WbPlYPwo3xGwc6M8Tcc1ZKJwGRp+lcSj7eQRZ107YEEFdxg==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\Desktop\\Lib_Management\\WinFormsApp1\\Library System.csproj",
+  "projectFilePath": "D:\\Projects\\Desktop\\Library_Management\\WinFormsApp1\\Library System.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eliem\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\eliem\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

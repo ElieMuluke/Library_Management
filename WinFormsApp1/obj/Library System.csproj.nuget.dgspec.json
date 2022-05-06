@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\Desktop\\Lib_Management\\WinFormsApp1\\Library System.csproj": {}
+    "D:\\Projects\\Desktop\\Library_Management\\WinFormsApp1\\Library System.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\Desktop\\Lib_Management\\WinFormsApp1\\Library System.csproj": {
+    "D:\\Projects\\Desktop\\Library_Management\\WinFormsApp1\\Library System.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\Desktop\\Lib_Management\\WinFormsApp1\\Library System.csproj",
+        "projectUniqueName": "D:\\Projects\\Desktop\\Library_Management\\WinFormsApp1\\Library System.csproj",
         "projectName": "Library System",
-        "projectPath": "D:\\Projects\\Desktop\\Lib_Management\\WinFormsApp1\\Library System.csproj",
+        "projectPath": "D:\\Projects\\Desktop\\Library_Management\\WinFormsApp1\\Library System.csproj",
         "packagesPath": "C:\\Users\\eliem\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\Desktop\\Lib_Management\\WinFormsApp1\\obj\\",
+        "outputPath": "D:\\Projects\\Desktop\\Library_Management\\WinFormsApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\eliem\\AppData\\Roaming\\NuGet\\NuGet.Config",
