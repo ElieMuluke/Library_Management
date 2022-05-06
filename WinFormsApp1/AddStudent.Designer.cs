@@ -174,7 +174,7 @@ namespace Library_System
             this.cancle.Name = "cancle";
             this.cancle.Size = new System.Drawing.Size(75, 32);
             this.cancle.TabIndex = 12;
-            this.cancle.Text = "Cancle";
+            this.cancle.Text = "Cancel";
             this.cancle.UseVisualStyleBackColor = true;
             this.cancle.Click += new System.EventHandler(this.cancle_Click);
             // 

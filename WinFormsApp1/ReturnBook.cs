@@ -46,7 +46,7 @@ namespace Library_System
         {
             string libid = libraryid.Text;
             SqlConnection con = new SqlConnection();
-            con.ConnectionString = "data source = LAZARUS-01; database = LibraryDatabase; Integrated security = True";
+            con.ConnectionString = "Data Source=DESKTOP-QOPRS00\\SQLEXPRESS;Initial Catalog=LibraryDatabase;Integrated Security=True";
             SqlCommand cmd = new SqlCommand();
             cmd.Connection = con;
 
@@ -93,7 +93,7 @@ namespace Library_System
         private void btnreturn_Click(object sender, EventArgs e)
         {
             SqlConnection con = new SqlConnection();
-            con.ConnectionString = "data source = LAZARUS-01; database = LibraryDatabase; Integrated security = True";
+            con.ConnectionString = "Data Source=DESKTOP-QOPRS00\\SQLEXPRESS;Initial Catalog=LibraryDatabase;Integrated Security=True";
             SqlCommand cmd = new SqlCommand();
             cmd.Connection = con;
 

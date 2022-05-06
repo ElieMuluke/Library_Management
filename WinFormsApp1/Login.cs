@@ -56,20 +56,11 @@ namespace WinFormsApp1
             }
         }
 
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
-            System.Diagnostics.Process.Start("https://web.facebook.com/friscolibrary");
-        }
-
-        private void picboxig_Click(object sender, EventArgs e)
-        {
-            System.Diagnostics.Process.Start("https://www.instagram.com/friscolibrary/");
-        }
 
         private void button1_Click_1(object sender, EventArgs e)
         {
             SqlConnection mycon = new SqlConnection();
-            mycon.ConnectionString = "data source = LAZARUS-01; database = LibraryDatabase; Integrated Security = True";
+            mycon.ConnectionString = "Data Source=DESKTOP-QOPRS00\\SQLEXPRESS;Initial Catalog=LibraryDatabase;Integrated Security=True";
             SqlCommand mycmd = new SqlCommand();
             mycmd.Connection = mycon;
             mycmd.CommandText = "select * from LoginTable where Username = '"+usnm.Text+"' and pass = '"+psswd.Text+"'";

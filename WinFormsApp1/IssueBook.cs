@@ -22,7 +22,7 @@ namespace Library_System
         private void IssueBook_Load(object sender, EventArgs e)
         {
             SqlConnection con = new SqlConnection();
-            con.ConnectionString = "data source = LAZARUS-01; database = LibraryDatabase; Integrated security = True";
+            con.ConnectionString = "Data Source=DESKTOP-QOPRS00\\SQLEXPRESS;Initial Catalog=LibraryDatabase;Integrated Security=True";
             SqlCommand issue = new SqlCommand();
             issue.Connection = con;
 
@@ -48,7 +48,7 @@ namespace Library_System
             {
                 string id = studentid.Text;
                 SqlConnection con = new SqlConnection();
-                con.ConnectionString = "data source = LAZARUS-01; database = LibraryDatabase; Integrated security = True";
+                con.ConnectionString = "Data Source=DESKTOP-QOPRS00\\SQLEXPRESS;Initial Catalog=LibraryDatabase;Integrated Security=True";
                 SqlCommand search = new SqlCommand();
                 search.Connection = con;
 
@@ -110,7 +110,7 @@ namespace Library_System
 
                     String id = studentid.Text;
                     SqlConnection con = new SqlConnection();
-                    con.ConnectionString = "data source = LAZARUS-01; database = LibraryDatabase; Integrated security = True";
+                    con.ConnectionString = "Data Source=DESKTOP-QOPRS00\\SQLEXPRESS;Initial Catalog=LibraryDatabase;Integrated Security=True";
                     SqlCommand search = new SqlCommand();
                     search.Connection = con;
 

@@ -41,16 +41,12 @@ namespace WinFormsApp1
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.btnlogin = new System.Windows.Forms.Button();
             this.btnsignup = new System.Windows.Forms.Button();
-            this.picboxfb = new System.Windows.Forms.PictureBox();
-            this.picboxig = new System.Windows.Forms.PictureBox();
             this.close = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picboxfb)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picboxig)).BeginInit();
             this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -99,6 +95,7 @@ namespace WinFormsApp1
             this.psswd.ForeColor = System.Drawing.SystemColors.Window;
             this.psswd.Location = new System.Drawing.Point(102, 215);
             this.psswd.Name = "psswd";
+            this.psswd.PasswordChar = '*';
             this.psswd.Size = new System.Drawing.Size(190, 20);
             this.psswd.TabIndex = 3;
             this.psswd.Text = "Password";
@@ -179,28 +176,6 @@ namespace WinFormsApp1
             this.btnsignup.UseVisualStyleBackColor = false;
             this.btnsignup.Click += new System.EventHandler(this.btnsignup_Click);
             // 
-            // picboxfb
-            // 
-            this.picboxfb.Image = ((System.Drawing.Image)(resources.GetObject("picboxfb.Image")));
-            this.picboxfb.Location = new System.Drawing.Point(12, 419);
-            this.picboxfb.Name = "picboxfb";
-            this.picboxfb.Size = new System.Drawing.Size(41, 30);
-            this.picboxfb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picboxfb.TabIndex = 11;
-            this.picboxfb.TabStop = false;
-            this.picboxfb.Click += new System.EventHandler(this.pictureBox4_Click);
-            // 
-            // picboxig
-            // 
-            this.picboxig.Image = ((System.Drawing.Image)(resources.GetObject("picboxig.Image")));
-            this.picboxig.Location = new System.Drawing.Point(280, 419);
-            this.picboxig.Name = "picboxig";
-            this.picboxig.Size = new System.Drawing.Size(41, 30);
-            this.picboxig.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picboxig.TabIndex = 12;
-            this.picboxig.TabStop = false;
-            this.picboxig.Click += new System.EventHandler(this.picboxig_Click);
-            // 
             // close
             // 
             this.close.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
@@ -231,8 +206,6 @@ namespace WinFormsApp1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(36)))), ((int)(((byte)(55)))));
             this.ClientSize = new System.Drawing.Size(333, 461);
-            this.Controls.Add(this.picboxig);
-            this.Controls.Add(this.picboxfb);
             this.Controls.Add(this.btnsignup);
             this.Controls.Add(this.btnlogin);
             this.Controls.Add(this.pictureBox3);
@@ -253,8 +226,6 @@ namespace WinFormsApp1
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picboxfb)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picboxig)).EndInit();
             this.panel4.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -274,8 +245,6 @@ namespace WinFormsApp1
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Button btnlogin;
         private System.Windows.Forms.Button btnsignup;
-        private System.Windows.Forms.PictureBox picboxfb;
-        private System.Windows.Forms.PictureBox picboxig;
         private System.Windows.Forms.Button close;
         private System.Windows.Forms.Panel panel4;
     }

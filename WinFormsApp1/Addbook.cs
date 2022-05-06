@@ -34,7 +34,7 @@ namespace Library_System
                 Int64 bquantity = Int64.Parse(quantity.Text);
 
                 SqlConnection con = new SqlConnection();
-                con.ConnectionString = "data source = LAZARUS-01; database = LibraryDatabase; Integrated security = True";
+                con.ConnectionString = "Data Source=DESKTOP-QOPRS00\\SQLEXPRESS;Initial Catalog=LibraryDatabase;Integrated Security=True";
                 SqlCommand save = new SqlCommand();
                 save.Connection = con;
 

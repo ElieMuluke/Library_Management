@@ -89,6 +89,7 @@ namespace Library_System
             this.psswd.ForeColor = System.Drawing.SystemColors.Window;
             this.psswd.Location = new System.Drawing.Point(73, 214);
             this.psswd.Name = "psswd";
+            this.psswd.PasswordChar = '*';
             this.psswd.Size = new System.Drawing.Size(183, 16);
             this.psswd.TabIndex = 3;
             this.psswd.Text = "Password";
@@ -103,6 +104,7 @@ namespace Library_System
             this.conpsswd.ForeColor = System.Drawing.SystemColors.Window;
             this.conpsswd.Location = new System.Drawing.Point(73, 274);
             this.conpsswd.Name = "conpsswd";
+            this.conpsswd.PasswordChar = '*';
             this.conpsswd.Size = new System.Drawing.Size(183, 16);
             this.conpsswd.TabIndex = 4;
             this.conpsswd.Text = "Confirm Password";
@@ -168,7 +170,7 @@ namespace Library_System
             this.panel4.TabIndex = 10;
             this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 
-            // Signup
+            // Register
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -186,7 +188,7 @@ namespace Library_System
             this.Controls.Add(this.close);
             this.Controls.Add(this.panel4);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Signup";
+            this.Name = "Register";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

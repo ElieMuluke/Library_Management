@@ -37,7 +37,7 @@ namespace Library_System
         private void AllBooks_Load(object sender, EventArgs e)
         {
             SqlConnection con = new SqlConnection();
-            con.ConnectionString = "data source = LAZARUS-01; database = LibraryDatabase; Integrated Security = True";
+            con.ConnectionString = "Data Source=DESKTOP-QOPRS00\\SQLEXPRESS;Initial Catalog=LibraryDatabase;Integrated Security=True";
             SqlCommand all = new SqlCommand();
 
             all.Connection = con;
@@ -69,7 +69,7 @@ namespace Library_System
             if(searchbx.Text != "")
             {
                 SqlConnection con = new SqlConnection();
-                con.ConnectionString = "data source = LAZARUS-01; database = LibraryDatabase; Integrated Security = True";
+                con.ConnectionString = "Data Source=DESKTOP-QOPRS00\\SQLEXPRESS;Initial Catalog=LibraryDatabase;Integrated Security=True";
                 SqlCommand all = new SqlCommand();
 
                 all.Connection = con;
@@ -84,7 +84,7 @@ namespace Library_System
             else
             {
                 SqlConnection con = new SqlConnection();
-                con.ConnectionString = "data source = LAZARUS-01; database = LibraryDatabase; Integrated Security = True";
+                con.ConnectionString = "Data Source=DESKTOP-QOPRS00\\SQLEXPRESS;Initial Catalog=LibraryDatabase;Integrated Security=True";
                 SqlCommand all = new SqlCommand();
 
                 all.Connection = con;
@@ -101,7 +101,7 @@ namespace Library_System
         private void refresh_Click(object sender, EventArgs e)
         {
             SqlConnection con = new SqlConnection();
-            con.ConnectionString = "data source = LAZARUS-01; database = LibraryDatabase; Integrated Security = True";
+            con.ConnectionString = "Data Source=DESKTOP-QOPRS00\\SQLEXPRESS;Initial Catalog=LibraryDatabase;Integrated Security=True";
             SqlCommand all = new SqlCommand();
 
             all.Connection = con;
@@ -120,7 +120,7 @@ namespace Library_System
             if (MessageBox.Show("The selected data will be Deleted", "Delete", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning) == DialogResult.OK)
             {
                 SqlConnection con = new SqlConnection();
-                con.ConnectionString = "data source = LAZARUS-01; database = LibraryDatabase; Integrated security = True";
+                con.ConnectionString = "Data Source=DESKTOP-QOPRS00\\SQLEXPRESS;Initial Catalog=LibraryDatabase;Integrated Security=True";
                 SqlCommand delete = new SqlCommand();
                 delete.Connection = con;
 
